@@ -1,0 +1,314 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#header{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    margin: 0 15%;
+    min-height: 150px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputSearch{
+    width: 400px;
+    height: 40px;
+    border-radius: 8px;
+    outline: none;
+    border: 2px solid green;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.btnSearch{
+    height: 40px;
+    width: fit-content;
+    padding: 0 20px;
+    border-radius: 8px;
+    background-color: greenyellow;
+    border: 2px solid green;
+}
+
+.logo{
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.search{
+    width: 50%;
+    margin-top: 20px;
+}
+
+.actionUser{
+    display: flex;
+    margin-right: 20px;
+    margin-top: 20px;
+    width: 15%;
+}
+
+.actionUser a{
+    margin-right: 10px;
+}
+
+.totalCart{
+    position: absolute;
+}
+
+
+.cartLogo {
+    position: relative;
+    margin-top: -5px;
+}
+
+.cartLogo p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+}
+
+.cartLogo img {
+    position: relative;
+}
+
+
+.actionUser a{
+    margin-right: 10px;
+    margin-left: 3px;
+    font-size: 18px;
+}
+
+
+
+.imgTitle {
+    position: relative;
+}
+
+.imgTitle h2{
+    position: absolute;
+    top: 40%;
+    right: 45%;
+    color: white;
+    font-size: 40px;
+}
+
+.imgTitle {
+    width: 100%; /* width of container */
+    height: 200px; /* height of container */
+    overflow: hidden;
+    border: 5px solid black;
+}
+
+.imgTitle img {
+    margin: -10px 0px 0px -5px;
+}
+
+#content{
+    margin: 0 8% 0 15%;
+    min-height: 150px;
+    margin-top: 50px;
+    display: flex;
+}
+
+.left{
+    width: 20%;
+}
+
+.titleContent{
+    font-size: 24px;
+    background-color: #498374;
+    padding: 5px 20px;
+    width: fit-content;
+    color: white;
+    border-radius: 8px;
+}
+
+.cateList{
+    border: 1px solid green;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+ul{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+ul li{
+    list-style-type: none;
+    margin-left: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.right{
+    width: 80%;
+    margin-left: 30px;
+}
+
+.book{
+    width: 20%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.borderImg img{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.borderImg:hover{
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.listBook{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.inforBook{
+    text-align: center;
+}
+
+.book{
+   margin-right: 30px;
+}
+
+.addCartHome{
+    width: 100%;
+    height: 30px;
+    background-color: green;
+    color: white;
+    border-radius: 8px;
+    border: none;
+    margin-top: 3px;
+}
+
+.addCartHome:hover{
+    background-color: rgb(0, 108, 0);
+}
+
+.inforBook p{
+    margin-top: 3px;
+}
+
+.imgTim img{
+    width: 100%;
+}
+.imgTim{
+    width: 100%;
+    border: none;
+}
+
+.cateList{
+    border: none;
+}
+
+.imgTim {
+    width: 90%; /* width of container */
+    height: 400px; /* height of container */
+    overflow: hidden;
+    border: 2px solid black;
+}
+
+.imgTim img {
+    margin: 0px 0px 0px 0px;
+}
+
+.bookDet{
+    width: 100%;
+    min-height: 50px;
+    background-color: #f3f3f3;
+    margin-top: 30px;
+    display: flex;
+}
+
+.inforBookDe{
+    width: 50%;
+    padding: 20px 20px;
+}
+
+.buyBtnBook{
+    width: 50%;
+    padding: 20px 20px;
+}
+.BtnAddCartDetail{
+    width: 90%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    background-color: #498374;
+    color: white;
+    font-size: 20px;
+}
+
+.BtnAddCartDetail:hover{
+    background-color: #59ffd3;
+    color: black;
+    border: 1px solid green;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.inforAddCart{
+    width: 90%;
+    padding: 20px 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: white;
+
+}
+.detailDetail{
+    display: flex;
+}
+.cateDetail{
+    display: flex;
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.cateDetail p{
+    font-size: 18px;
+}
+
+.chP{
+    font-weight: 700;
+    margin-right: 5px; 
+}
+
+.priceDetail{
+    background-color: rgb(255, 157, 0);
+    width: fit-content;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    margin-top: 50px;
+}
+
+.priceDetail p{
+    font-size: 30px;
+}
+
+.listDetailBook ul li {
+    list-style-type: circle;
+}
+
+.txtRe{
+    margin-top: 100px;
+}
+
+.txtRe{
+    background-color: #498374;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 8px;
+    width: fit-content;
+}
